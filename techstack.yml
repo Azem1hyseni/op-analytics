@@ -1,0 +1,182 @@
+repo_name: Azem1hyseni/op-analytics
+report_id: 3716d51dd1e462024cc1665feeefb5ab
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T10:47:47+00:00'
+requested_by: actions-user
+provider: github
+branch: main
+detected_tools_count: 14
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Azem1hyseni/op-analytics
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/Azem1hyseni/op-analytics/blob/main/concepts/l2_gas_tracker/blocks_initialize.sql
+  detection_source: concepts/l2_gas_tracker/blocks_initialize.sql
+  last_updated_by: Michael Silberling
+  last_updated_on: 2023-06-01 20:30:53.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Azem1hyseni/op-analytics
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Azem1hyseni/op-analytics/blob/main/.github/workflows/op_deployer_tracking.yml
+  detection_source: ".github/workflows/op_deployer_tracking.yml"
+  last_updated_by: Michael Silberling
+  last_updated_on: 2023-06-19 17:24:30.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Azem1hyseni/op-analytics/blob/main/Pipfile
+  detection_source: Pipfile
+  last_updated_by: chuxinh
+  last_updated_on: 2023-03-10 13:25:48.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/Azem1hyseni/op-analytics
+  detection_source: Repo Metadata
+- name: loguru
+  description: Python logging made
+  package_url: https://pypi.org/project/loguru
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20043/default_15ea2ed8281eccea374610791971ca44800f16ec.png
+  detection_source_url: https://github.com/Azem1hyseni/op-analytics/blob/main/Pipfile
+  detection_source: Pipfile
+  last_updated_by: Michael Silberling
+  last_updated_on: 2023-05-18 20:25:58.000000000 Z
+- name: nbconvert
+  description: Converting Jupyter Notebooks
+  package_url: https://pypi.org/project/nbconvert
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20059/default_07febc56eb57b6d4c91eb3ad11874d5d88882ab0.png
+  detection_source_url: https://github.com/Azem1hyseni/op-analytics/blob/main/Pipfile
+  detection_source: Pipfile
+  last_updated_by: Michael Silberling
+  last_updated_on: 2023-05-18 20:25:58.000000000 Z
+- name: pandas
+  description: Powerful data structures for data analysis
+  package_url: https://pypi.org/project/pandas
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/Azem1hyseni/op-analytics/blob/main/Pipfile
+  detection_source: Pipfile
+  last_updated_by: Michael Silberling
+  last_updated_on: 2023-05-18 20:25:58.000000000 Z
+- name: plotly
+  description: An open-source, interactive graphing library for Python
+  package_url: https://pypi.org/project/plotly
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20062/default_7d86b2789b7e98a881e37db483c09c6a1aa3e995.png
+  detection_source_url: https://github.com/Azem1hyseni/op-analytics/blob/main/Pipfile
+  detection_source: Pipfile
+  last_updated_by: Michael Silberling
+  last_updated_on: 2023-05-18 20:25:58.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/Azem1hyseni/op-analytics/blob/main/Pipfile
+  detection_source: Pipfile
+  last_updated_by: chuxinh
+  last_updated_on: 2023-11-29 20:07:41.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/Azem1hyseni/op-analytics/blob/main/Pipfile
+  detection_source: Pipfile
+  last_updated_by: Michael Silberling
+  last_updated_on: 2023-09-18 13:12:34.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/Azem1hyseni/op-analytics/blob/main/Pipfile
+  detection_source: Pipfile
+  last_updated_by: Michael Silberling
+  last_updated_on: 2023-05-18 20:25:58.000000000 Z
+- name: web3
+  description: Web3.py
+  package_url: https://pypi.org/project/web3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20162/default_4ac30e385d247a1f87c5fe3f3f00001d9c4df723.png
+  detection_source_url: https://github.com/Azem1hyseni/op-analytics/blob/main/Pipfile
+  detection_source: Pipfile
+  last_updated_by: Michael Silberling
+  last_updated_on: 2023-09-07 21:06:42.000000000 Z
